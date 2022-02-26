@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dsplay
+dsplay.so
+dsplay.dylib
+dsplay.dll
+dsplay.a
+dsplay.lib
+dsplay-test-*
+*.exe
+*.o
+*.obj
+*.lst
