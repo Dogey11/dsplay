@@ -1,4 +1,4 @@
-# dsplay
+# dsplay ![DUB](https://img.shields.io/dub/v/dsplay?style=plastic)
 DUB package used to get a device's display resolution for the D programming language.
 
 This is a wrapper for a couple [windows-headers](http://windows-headers.dub.pm/) functions, meaning it's a dependency
