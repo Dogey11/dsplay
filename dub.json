@@ -3,6 +3,9 @@
 		"dogey11"
 	],
 	"copyright": "Copyright © 2022, dogey11",
+	"dependencies": {
+		"windows-headers": "~>1.0.4"
+	},
 	"description": "Gets display resolution in windows",
 	"license": "Boost",
 	"name": "dsplay"
