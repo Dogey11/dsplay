@@ -1,6 +1,6 @@
 module dsplay;
 
-import windows.winuser;
+import core.sys.windows.windows;
 
 int getScreenWidth() {
 	int x = GetSystemMetrics(SM_CXSCREEN);
