@@ -1,8 +1,8 @@
 # dsplay ![DUB](https://img.shields.io/dub/v/dsplay?style=plastic)
 DUB package used to get a device's display resolution for the D programming language.
 
-This is a wrapper for a couple [windows-headers](http://windows-headers.dub.pm/) functions, meaning it's a dependency
-you'll have to import. More on this down below.
+
+This is a wrapper for a couple winuser functions, meaning you'll have to import it. More on this down below.
 
 **Because of this, the package only works for windows; linux and mac are not compatible.**
 
@@ -12,10 +12,9 @@ In your project directory enter the following commands:
 
 ```
 dub add dsplay
-dub add windows-headers
 ```
 
-Installs both required packages.
+Installs dsplay.
 
 ## Usage
 This package has 2 functions:
@@ -32,7 +31,7 @@ Prints the display resolution.
 ```d
 import std.stdio;
 import dsplay;
-import windows.winuser;
+import core.sys.windows.winuser;
 
 void main()
 {
