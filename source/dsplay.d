@@ -2,6 +2,8 @@ module dsplay;
 
 import core.sys.windows.winuser;
 
+pragma(lib, "User32.lib");
+
 int getScreenWidth() {
 	int x = GetSystemMetrics(0);
 	x = x / 4;
