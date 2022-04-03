@@ -30,8 +30,10 @@ Prints the display resolution.
 
 ```d
 import std.stdio;
-import dsplay;
 import core.sys.windows.winuser;
+import dsplay;
+
+pragma(lib, "User32.lib");
 
 void main()
 {
