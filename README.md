@@ -1,3 +1,5 @@
+# I have archived this as it had no use and was created solely for learning purposes.
+
 # dsplay ![DUB](https://img.shields.io/dub/v/dsplay?style=plastic)
 DUB package used to get a device's display resolution for the D programming language.
 
